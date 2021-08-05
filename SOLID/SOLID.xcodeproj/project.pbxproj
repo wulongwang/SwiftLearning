@@ -11,6 +11,11 @@
 		0414263326BBEE270091BF64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414263226BBEE270091BF64 /* ContentView.swift */; };
 		0414263526BBEE270091BF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0414263426BBEE270091BF64 /* Assets.xcassets */; };
 		0414263826BBEE270091BF64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0414263726BBEE270091BF64 /* Preview Assets.xcassets */; };
+		0414264126BC0A3A0091BF64 /* OpenClosedPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414264026BC0A3A0091BF64 /* OpenClosedPrinciple.swift */; };
+		0414264426BC0A540091BF64 /* SingleResponsibilityPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414264326BC0A540091BF64 /* SingleResponsibilityPrinciple.swift */; };
+		0414264726BC0CA10091BF64 /* LiskovSubstitutionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414264626BC0CA10091BF64 /* LiskovSubstitutionPrinciple.swift */; };
+		0414264A26BC0FB70091BF64 /* InterfaceSegregationPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414264926BC0FB70091BF64 /* InterfaceSegregationPrinciple.swift */; };
+		0414264D26BC110B0091BF64 /* DependencyInversionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414264C26BC110B0091BF64 /* DependencyInversionPrinciple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		0414263426BBEE270091BF64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0414263726BBEE270091BF64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0414263926BBEE270091BF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0414264026BC0A3A0091BF64 /* OpenClosedPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosedPrinciple.swift; sourceTree = "<group>"; };
+		0414264326BC0A540091BF64 /* SingleResponsibilityPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResponsibilityPrinciple.swift; sourceTree = "<group>"; };
+		0414264626BC0CA10091BF64 /* LiskovSubstitutionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiskovSubstitutionPrinciple.swift; sourceTree = "<group>"; };
+		0414264926BC0FB70091BF64 /* InterfaceSegregationPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSegregationPrinciple.swift; sourceTree = "<group>"; };
+		0414264C26BC110B0091BF64 /* DependencyInversionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInversionPrinciple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				0414263426BBEE270091BF64 /* Assets.xcassets */,
 				0414263926BBEE270091BF64 /* Info.plist */,
 				0414263626BBEE270091BF64 /* Preview Content */,
+				0414264026BC0A3A0091BF64 /* OpenClosedPrinciple.swift */,
+				0414264326BC0A540091BF64 /* SingleResponsibilityPrinciple.swift */,
+				0414264626BC0CA10091BF64 /* LiskovSubstitutionPrinciple.swift */,
+				0414264926BC0FB70091BF64 /* InterfaceSegregationPrinciple.swift */,
+				0414264C26BC110B0091BF64 /* DependencyInversionPrinciple.swift */,
 			);
 			path = SOLID;
 			sourceTree = "<group>";
@@ -139,6 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0414263326BBEE270091BF64 /* ContentView.swift in Sources */,
+				0414264726BC0CA10091BF64 /* LiskovSubstitutionPrinciple.swift in Sources */,
+				0414264126BC0A3A0091BF64 /* OpenClosedPrinciple.swift in Sources */,
+				0414264A26BC0FB70091BF64 /* InterfaceSegregationPrinciple.swift in Sources */,
+				0414264426BC0A540091BF64 /* SingleResponsibilityPrinciple.swift in Sources */,
+				0414264D26BC110B0091BF64 /* DependencyInversionPrinciple.swift in Sources */,
 				0414263126BBEE270091BF64 /* SOLIDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
