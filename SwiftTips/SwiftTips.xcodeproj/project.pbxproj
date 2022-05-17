@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041FC3AC28339C17003BB82B /* UIButton+SSEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FC3AA28339C17003BB82B /* UIButton+SSEdgeInsets.m */; };
 		0461476E26BCCAFE008B961D /* SwiftTipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461476D26BCCAFE008B961D /* SwiftTipsApp.swift */; };
 		0461477026BCCAFE008B961D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461476F26BCCAFE008B961D /* ContentView.swift */; };
 		0461477226BCCB06008B961D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0461477126BCCB06008B961D /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041FC3AA28339C17003BB82B /* UIButton+SSEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SSEdgeInsets.m"; sourceTree = "<group>"; };
+		041FC3AB28339C17003BB82B /* UIButton+SSEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SSEdgeInsets.h"; sourceTree = "<group>"; };
 		0461476A26BCCAFE008B961D /* SwiftTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0461476D26BCCAFE008B961D /* SwiftTipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTipsApp.swift; sourceTree = "<group>"; };
 		0461476F26BCCAFE008B961D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041FC3A928339C17003BB82B /* UIButtonCategory */ = {
+			isa = PBXGroup;
+			children = (
+				041FC3AA28339C17003BB82B /* UIButton+SSEdgeInsets.m */,
+				041FC3AB28339C17003BB82B /* UIButton+SSEdgeInsets.h */,
+			);
+			path = UIButtonCategory;
+			sourceTree = "<group>";
+		};
 		0461476126BCCAFE008B961D = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +64,7 @@
 		0461476C26BCCAFE008B961D /* SwiftTips */ = {
 			isa = PBXGroup;
 			children = (
+				041FC3A928339C17003BB82B /* UIButtonCategory */,
 				0461476D26BCCAFE008B961D /* SwiftTipsApp.swift */,
 				0461476F26BCCAFE008B961D /* ContentView.swift */,
 				0461477126BCCB06008B961D /* Assets.xcassets */,
@@ -139,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0461477026BCCAFE008B961D /* ContentView.swift in Sources */,
+				041FC3AC28339C17003BB82B /* UIButton+SSEdgeInsets.m in Sources */,
 				0461476E26BCCAFE008B961D /* SwiftTipsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
